@@ -1,0 +1,9 @@
+.banner{
+    background:#ce8282;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo{
+    border: 3px solid red;
+}
