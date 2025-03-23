@@ -5,58 +5,128 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
-    background-color: #fff;
-}
-.banner{
-    width: 400px;
-    height: 700px;
-    margin: 0 auto;
-    background: #c6f8c6;
+    background-color: #eee;
 }
 
-.banner-header{
+
+
+.banner{
+    width: 400px;
+    height: 100vh;
+    margin: 0 auto;
+    background: #c6f8c6;
+    border-radius: 8px;
+}
+.section{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    background: #c6f8c6;
+    padding: 20px;
+}
+.heading, .section-title{
+    margin: 0.5rem 0rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fa6023f3;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    font-size: 2rem;
+
+}
+strong{
+    color: #fa6023f3;
+}
+
+h1.banner-header{
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 1px 2px 3px gray;
     letter-spacing: 3px;
 }
 
-.text-header{
-    font-family: Georgia, 'Times New Roman', Times, serif, Times, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+p.text-header{
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif, 'Times New Roman', Times, serif, Times, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -0.3rem;
     margin-bottom: 1rem;
+    font-size: 15px;
+    color: gray;
+    letter-spacing: 1px;
+
 }
 
 .text-header, .banner-header{
     text-align: center;
-    letter-spacing: 3px;
+    
 }
 
 .hero{
     padding: 10px;
 }
 
-.heading{
-    margin: 0.5rem 0rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #fff;
-}
+
 .title{
-    color: #f5b45e;
+    color: #fa6023f3;
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link-list{
+    list-style-type: none;
+    margin-top: 50px;
 }
 .list{
     list-style-type: none;
 }
 .links{
-    background: #f5b45e;
-    color: white;
+    background: #fff;
+    color: gray;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 1px 2px  8px gray;
+    transition: 300ms;
+    text-align: center;
 
 }
+
+.bottom-links{
+    margin-top: 20px;
+}
 .links:hover{
-    color: white;
+    color: #fff;
+    background-color: #fa6023f3;
 }
 .text{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: gray;
+    color: rgb(88, 86, 86);
+    letter-spacing: 0.5px;
+    line-height: 1.7rem;
+}
+
+.image{
+    display: block;
+    border-radius:15px;
+    outline: 3px solid #fa6023f3;
+    outline-offset: 8px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    transition: 600ms;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.text-container{
+        padding: 10px 25px;
+        background: white;
+        border-radius: 10px;
+        margin: 10px 0;
+        /* padding-left: 5px; */
 }
